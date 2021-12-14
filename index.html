@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+</head>
+<body>
+    <p>test</p>
+    <script>
+        // console.log('test')
+
+        for (let siffra = 1; siffra < 160; siffra++) {
+            //om siffra delat går att dela med 3
+            if (siffra % 3 === 0 && siffra % 5 === 0) {
+                console.log('FIZZ BUZZ', siffra)
+                }
+            else if (siffra % 5 === 0) {
+                console.log('BUZZ', siffra)
+                }
+                else if (siffra % 3 === 0) {
+                console.log('FIZZ', siffra)
+            }
+            else {
+                console.log(siffra)
+            }
+        }
+    </script>
+</body>
+</html>
